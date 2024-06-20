@@ -3,4 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
+    <servlet-mapping>
+        <servlet-name>student</servlet-name>
+        <url-pattern>/student</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>student</servlet-name>
+        <servlet-class>lk.ijse.aad.student</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
 </web-app>
