@@ -1,3 +1,12 @@
+GET http://localhost:8082/customer
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-29T115056.404.html
+
+###
+
 GET http://localhost:8082/student
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
